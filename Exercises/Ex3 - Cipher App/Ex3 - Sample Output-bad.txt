@@ -1,0 +1,26 @@
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on Text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │TEXT  [This is a haiku; it is not too long I think; but you may disagree] │ │
+│ │KEY   [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘

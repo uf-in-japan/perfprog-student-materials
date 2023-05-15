@@ -1,0 +1,474 @@
+NOTE: This document is a series of screen captures. Each is exactly 25 lines long.
+
+AT STARTUP
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [This is a haiku; it is not too long I think; but you may disagree] │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Application started successfully.
+--------------------------------------------------------------------------------
+
+FILE LOADING SELECTED, FILENAME TYPED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [This is a haiku; it is not too long I think; but you may disagree] │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│┌────────────────────────────────────────────────────────────────────────────┐│
+││                Enter file to load below, then press [ENTER]                ││
+││    ┌──────────────────────────────────────────────────────────────────┐    ││
+││    │Ex3-Test-Input.txt                                                │    ││
+││    └──────────────────────────────────────────────────────────────────┘    ││
+│└────────────────────────────────────────────────────────────────────────────┘│
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Application started successfully.
+--------------------------------------------------------------------------------
+
+[ENTER] PRESSED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [kasjdlkfjaslk;dfjl;kasjdf;kajs;lkdfjaklsjdf;lakjsdflkajsd;lfkjakl] │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: File contents loaded successfully.
+--------------------------------------------------------------------------------
+
+ALT: CANCELLATION ON EMPTY STRING
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [This is a haiku; it is not too long I think; but you may disagree] │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: File load cancelled.
+--------------------------------------------------------------------------------
+
+USER INPUT SELECTED, NEW TEXT TYPED:
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [kasjdlkfjaslk;dfjl;kasjdf;kajs;lkdfjaklsjdf;lakjsdflkajsd;lfkjakl] │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│┌────────────────────────────────────────────────────────────────────────────┐│
+││                  Enter new text below, then press [ENTER]                  ││
+││    ┌──────────────────────────────────────────────────────────────────┐    ││
+││    │I didn't like that haiku. I should try another one...             │    ││
+││    └──────────────────────────────────────────────────────────────────┘    ││
+│└────────────────────────────────────────────────────────────────────────────┘│
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: File contents loaded successfully.
+--------------------------------------------------------------------------------
+
+[ENTER] PRESSED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: New text loaded into memory from user input.
+--------------------------------------------------------------------------------
+
+ALT: EMPTRY STRING (CANCELLATION)
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [kasjdlkfjaslk;dfjl;kasjdf;kajs;lkdfjaklsjdf;lakjsdflkajsd;lfkjakl] │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Cancelled user input of text (empty string).
+--------------------------------------------------------------------------------
+
+KEY CHANGE SELECTED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│┌────────────────────────────────────────────────────────────────────────────┐│
+││                    Enter new key and then press [ENTER]                    ││
+││    ┌──────────────────────────────────────────────────────────────────┐    ││
+││    │Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox? │    ││
+││    └──────────────────────────────────────────────────────────────────┘    ││
+│└────────────────────────────────────────────────────────────────────────────┘│
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: New text loaded into memory from user input.
+--------------------------------------------------------------------------------
+
+[ENTER] PRESSED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: New key loaded into memory from user input.
+--------------------------------------------------------------------------------
+
+ALT: CANCELLATION (EMPTY STRING)
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [But there's one sound that no one knows... What does the Fox say?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Cancelled user input of key (empty string).
+--------------------------------------------------------------------------------
+
+
+ PYTHON CIPHER APPLIED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [←I◙♫I◙N→G◘�♣☻D↔♠♠►I♠♠♀↓∟@G,D→♠◘TL3AY☻↑P�▲♫♦○§‼♪▼☺↕☼♫y]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Applied Python cipher.
+--------------------------------------------------------------------------------
+
+RUST CIPHER APPLIED
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Applied Rust cipher.
+--------------------------------------------------------------------------------
+
+CIPHER VERIFICATION
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Cipher match verified!
+--------------------------------------------------------------------------------
+
+BENCHMARK RUNNING
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│┌────────────────────────────────────────────────────────────────────────────┐│
+││                           Running benchmarks....                           ││
+││                                                                            ││
+││                                                                            ││
+││                                                                            ││
+│└────────────────────────────────────────────────────────────────────────────┘│
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Cipher match verified!
+
+
+--------------------------------------------------------------------------------
+
+BENCHMARK COMPLETED (NOTE: Numbers will vary)
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│┌────────────────────────────────────────────────────────────────────────────┐│
+││                           Results from Benchmark                           ││
+││                           ----------------------                           ││
+││                           Rust Cipher:   01.289s                           ││
+││                           Python Cipher: 03.124s                           ││
+│└────────────────────────────────────────────────────────────────────────────┘│
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: Benchmark results displayed.
+--------------------------------------------------------------------------------
+
+BAD INPUT
+--------------------------------------------------------------------------------
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Welcome to the XOR-Cipher App!                        │
+│                   ┌──────────────────────────────────────┐                   │
+│                   │ [F] Read text from a local File      │                   │
+│                   │ [I] Read text from user Input prompt │                   │
+│                   │ [R] Apply Rust cipher to this text   │                   │
+│                   │ [P] Apply Python cipher to this text │                   │
+│                   │ [V] Verify cipher results match      │                   │
+│                   │ [K] Change Key used for ciphers      │                   │
+│                   │ [B] Run Benchmarks on text (100000x) │                   │
+│                   │ [Q] Quit the Application             │                   │
+│                   └──────────────────────────────────────┘                   │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │
+│ │ TEXT [I didn't like that haiku. I should try another one...]             │ │
+│ │ KEY  [Ring-dingdingdingdingeringeding! Wa-papapapapa-pow! What the fox?] │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Status: ERROR: Invalid menu selection!
+--------------------------------------------------------------------------------
+
+
+UPON EXIT (NORMAL COMMAND LINE MESSAGE)
+--------------------------------------------------------------------------------
+Thanks for using the XOR-Cipher App; See you next time!
+--------------------------------------------------------------------------------

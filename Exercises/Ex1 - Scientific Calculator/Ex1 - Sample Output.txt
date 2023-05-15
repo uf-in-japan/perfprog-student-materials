@@ -1,0 +1,104 @@
+Current Result: 0.0
+
+Calculator Menu
+---------------
+0. Exit Program
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponentiation
+6. Logarithm
+7. Display Average
+
+Enter Menu Selection: 7
+
+Error: No calculations yet to average!
+
+Enter Menu Selection: 1
+Enter first operand: 0.5
+Enter second operand: -2.5
+
+Current Result: -2.0
+
+Calculator Menu
+---------------
+0. Exit Program
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponentiation
+6. Logarithm
+7. Display Average
+
+Enter Menu Selection: 5
+Enter first operand: RESULT
+Enter second operand: RESULT
+
+Current Result: 0.25
+
+Calculator Menu
+---------------
+0. Exit Program
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponentiation
+6. Logarithm
+7. Display Average
+
+Enter Menu Selection: 6
+Enter first operand: 2
+Enter second operand: 0.5
+
+Current Result: -1.0
+
+Calculator Menu
+---------------
+0. Exit Program
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponentiation
+6. Logarithm
+7. Display Average
+
+Enter Menu Selection: 7
+
+Sum of calculations: -2.75
+Number of calculations: 3
+Average of calculations: -0.92
+
+Enter Menu Selection: -10
+
+Error: Invalid selection!
+
+Enter Menu Selection: 4
+Enter first operand: 1
+Enter second operand: 3
+
+Current Result: 0.3333333333333333
+
+Calculator Menu
+---------------
+0. Exit Program
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponentiation
+6. Logarithm
+7. Display Average
+
+Enter Menu Selection: 7
+
+Sum of calculations: -2.4166666666666665
+Number of calculations: 4
+Average of calculations: -0.6
+
+Enter Menu Selection: 0
+
+Thanks for using this calculator. Goodbye!
