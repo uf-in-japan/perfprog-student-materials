@@ -1,0 +1,303 @@
+Welcome to Pakudex: Let's Go!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 1
+
+No Pakuri in Pakudex yet!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? GARBAGE
+
+Unrecognized menu selection!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? -5
+
+Unrecognized menu selection!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 2
+
+Enter the name of the Pakuri to display: Bob Jones
+Error: No such Pakuri!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 3
+
+Pakuri Information
+------------------
+Name: Chuchu
+Species: ShockRat
+Level: 4
+
+Pakuri Chuchu (ShockRat, level 4) added!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 3
+
+Pakuri Information
+------------------
+Name: Allie
+Species: Gator
+Level: 10
+
+Pakuri Allie (Gator, level 10) added!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 1
+
+Pakuri in Pakudex:
+1. Allie (Gator, level 10)
+2. Chuchu (ShockRat, level 4)
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 2
+
+Enter the name of the Pakuri to display: Chuchu
+
+Name: Chuchu
+Species: ShockRat
+Level: 4
+CP: 5
+HP: 15
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 3
+
+Pakuri Information
+------------------
+Name: Chuchu
+Error: Pakudex already contains this Pakuri!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 3
+
+Pakuri Information
+------------------
+Name: Quackers
+Species: PsyGoose
+Level: -15
+Level cannot be negative.
+Level: fIVe
+Invalid level!
+Level: 15
+
+Pakuri Quackers (PsyGoose, level 15) added!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 4
+
+Enter the name of the Pakuri to remove: PsyGoose
+Error: No such Pakuri!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 4
+
+Enter the name of the Pakuri to remove: Quackers
+Pakuri Quackers removed.
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 1
+
+Pakuri in Pakudex:
+1. Allie (Gator, level 10)
+2. Chuchu (ShockRat, level 4)
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 5
+
+Enter the name of the Pakuri to change: Chuchu
+Enter the new level for the Pakuri: 42
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 2
+
+Enter the name of the Pakuri to display: Chuchu
+
+Name: Chuchu
+Species: ShockRat
+Level: 42
+CP: 53
+HP: 161
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 1
+
+Pakuri in Pakudex:
+1. Allie (Gator, level 10)
+2. Chuchu (ShockRat, level 42)
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 5
+
+Enter the name of the Pakuri to change: Quackers
+Error: No such Pakuri!
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 5
+
+Enter the name of the Pakuri to change: Allie
+Enter the new level for the Pakuri: -5
+Level cannot be negative.
+Enter the new level for the Pakuri: 55
+Maximum level for Pakuri is 50.
+Enter the new level for the Pakuri: WAT
+Invalid level!
+Enter the new level for the Pakuri: 50
+
+Pakudex Main Menu
+-----------------
+1. List Pakuri
+2. Show Pakuri
+3. Add Pakuri
+4. Remove Pakuri
+5. Change Pakuri Level
+6. Exit
+
+What would you like to do? 6
+
+Thanks for using Pakudex: Let's Go! Bye!
